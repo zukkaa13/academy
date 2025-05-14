@@ -1,0 +1,14 @@
+const images = [
+    "{% static 'images/Screenshot_20250505_225714.png' %}",
+    "{% static 'images/Screenshot_20250505_225955.png' %}",
+];
+
+let currentIndex = 0;
+const imageElement = document.getElementById("dynamic-image");
+
+function changeImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    imageElement.src = images[currentIndex];
+}
+
+setInterval(changeImage, 3000); 

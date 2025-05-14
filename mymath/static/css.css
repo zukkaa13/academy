@@ -1,0 +1,355 @@
+body{
+    margin: 0%;
+
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    display: flex;
+
+}
+
+
+.chvn{
+    color:  #026466;
+    font-size: 18px;
+    font-weight: 650;
+    margin-left: 500px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.book{
+    color:  #026466;
+    font-size: 18px;
+    font-weight: 650;
+    margin-left: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.course{
+    color:  #026466;
+    font-size: 18px;
+    font-weight: 650;
+    margin-left: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.teacher{
+    color:  #026466;
+    font-size: 18px;
+    font-weight: 650;
+    margin-left: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+
+.img{
+    width: 1650px;
+    height: 600px;
+    image-rendering: crisp-edges;
+    transition: background-image 0.3s ease-in-out;
+    background-image: url('images/Screenshot_20250505_225714.png');
+
+
+
+}
+
+.nav_logo{
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 10px;
+  display: flex;
+  
+}
+
+.gaus{
+  color: #026466;
+  font-size: 20px;
+  margin-top: 25px;
+
+}
+
+.gaus2{
+  height: 200px;
+  margin-left: 140px;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  .nav2{
+    background-color: rgb(168, 182, 182);
+    position: relative;
+    width: 100%;
+    height: 250px; /* ან იმდენი რამდენიც გჭირდება */
+    
+  }
+
+.info{
+  font-size: 16px;
+  font-weight: 10px;
+  max-width: 350px;
+  transform: translateX(140px);
+
+  word-wrap: break-word;
+  bottom: 45px;
+  position: relative;
+  display: flex;
+
+}
+
+.contact-wrapper {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.info2,
+.loc,
+.mob,
+.mail {
+  position: absolute;
+  right: 40px;
+  font-size: 15px;
+}
+
+.info2 {
+  top: 20px;
+  font-size: 20px;
+  left: 700px;
+  font-weight: 500;
+
+
+}
+
+.loc {
+  top: 60px;
+  left: 630px;
+}
+
+.mob {
+  top: 90px;
+  left: 630px;
+
+}
+
+.mail {
+  top: 120px;
+  left: 630px;
+
+}
+
+
+  .slider {
+    width: 1600px;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+  }
+
+  .slides {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  .navigation-manual {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .manual-btn {
+    /*border: 2px solid white;*/
+    padding: 10px;
+    /*border-radius: 50%;*/
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 1000px;
+  }
+  .manual-btnn {
+    /*border: 2px solid white;*/
+    padding: 10px;
+    /*border-radius: 50%;*/
+    cursor: pointer;
+    transition: background 0.3s;
+    height: 600px;
+    width: 1000px;
+  }
+
+
+
+  #radio1:checked ~ .first {
+    transform: translateX(0%);
+  }
+
+  #radio2:checked ~ .first {
+    transform: translateX(-50%);
+  }
+
+
+
+
+.math,
+.it,
+.pysics,
+.english {
+  width: 250px;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.math{
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.pysics{
+  margin-left: 100px;
+  margin-bottom: 100px;
+
+}
+
+.it{
+  margin-left: 100px;
+  margin-bottom: 100px;
+
+}
+
+.english{
+  margin-left: 100px;
+  margin-bottom: 100px;
+
+}
+
+
+
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  display: flex;
+  position: relative;
+  bottom: 130px;
+}
+
+.info-box {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px; /* სურვილისამებრ */
+  background-color: white; /* აუცილებელია, რომ ჩრდილი გამოჩნდეს */
+
+}
+
+
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.info-box h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.info-box p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+
+
+  /*aqeda hover ebiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.english:hover,
+.it:hover,
+.pysics:hover,
+.math:hover{
+    width: 260px;
+    height: 330px;
+    transition: all 0.3s ease;
+
+  }
+
+
+
+.chvn:hover{
+  color: #f80;
+  font-size: 18px;
+  font-weight: 650;
+}
+
+.teacher:hover{
+  color: #f80;
+  font-size: 18px;
+  font-weight: 650;
+
+}
+
+.course:hover{
+  color: #f80;
+  font-size: 18px;
+  font-weight: 650;
+}
+
+.book:hover{
+  color: #f80;
+  font-size: 18px;
+  font-weight: 650;
+}
