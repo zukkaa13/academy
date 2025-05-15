@@ -11,17 +11,20 @@
     <script src="js.js"></script>
 </head>
 <body>
-    <nav class=nav>
-
-      <img src="{% static 'images/photo_5246935145368382551_x-removebg-preview.png' %}"  class="nav_logo">
-        <a class=gaus>Gaus</a>
-        <a class=chvn  >ჩვენს შესახებ</a>
-        <a class=course >კურსები </a>
-        <a class=book > წიგნები </a>
-        <a class=teacher > მასწავლებლები</a>
+<nav class="nav">
+  <div class="centri">    
+    <div class="textt">
+      <div class="Dasawyisi">
+        <img src="{% static 'images/photo_5246935145368382551_x-removebg-preview.png' %}"  class="gaus nav_logo">
+          <a class="saxeli">Gaus</a></div>
+          <a class="text"  >ჩვენს შესახებ</a>
+          <a class="text" >კურსები </a>
+          <a class="text" > წიგნები </a>
+          <a class="text" > მასწავლებლები</a>
         <a>  </a>
-
-    </nav>
+    </div>
+  </div>
+ </nav>
       
     <div class="slider">
         <input type="radio" name="radio-btn" id="radio1" checked>
@@ -60,21 +63,25 @@
         </div>
 
       </div>
-
-      <img class=math src="{% static 'images/Screenshot_20250506_231402.png' %}">
-      <img  class=it  src="{% static 'images/Flux_Dev_a_modern_and_sleek_photographic_image_featuring_a_fut_1.jpg' %}">
-      <img  class=pysics src="{% static 'images/Physics.webp' %}">
-      <img  class=english src="{% static 'images/How-to-Learn-English-Speaking-at-Home.jpg' %}">
-
-    <nav class="nav2">
+        <div class="containerr" >
+          <img class="divbox" src="{% static 'images/Screenshot_20250506_231402.png' %}">
+          <img  class="divbox"  src="{% static 'images/Flux_Dev_a_modern_and_sleek_photographic_image_featuring_a_fut_1.jpg' %}">
+          <img  class="divbox" src="{% static 'images/Physics.webp' %}">
+          <img  class="divbox" src="{% static 'images/How-to-Learn-English-Speaking-at-Home.jpg' %}">
+        </div>
+        
+  <nav class="nav2">
+    <div class="footer">  
       <img src="{% static 'images/photo_5246935145368382552_y-removebg-preview.png' %}" class="gaus2">
-      <p class=info >მათემატიკის, ფიზიკის და ინგლისურის აკადამია სადაც შეგასწავლით საუკეთესო პირობებში</p>
-      <p class=info2 > საკონტაქტო 
-        <ul class=loc > 📍 ბათუმი ზურაბ გორგილაძის 31 </ul>
-        <ul class=mail >📧 info@gaus.com</ul>
-        <ul class=mob > 📞 +995 599 12 34 56 </ul>
-      </p>
-    </nav>
+      <p class="teqsti">მათემატიკის, ფიზიკის და ინგლისურის <br>აკადამია სადაც შეგასწავლით საუკეთესო<br> პირობებში</p>
+      <div class="contact">
+        <p class="sakontaqto right" > საკონტაქტო:</p>
+          <ul class="sakontaqto" > 📍 ბათუმი ზურაბ გორგილაძის 31 </ul> <br>
+          <ul class="sakontaqto" >📧 info@gaus.com</ul> <br>
+          <ul class="sakontaqto" > 📞 +995 599 12 34 56 </ul> <br>
+      </div>    
+    </div>
+  </nav>
 
 </html>
 
