@@ -321,9 +321,6 @@ body {
   color: #555;
 }
 
-.menu-itemss, .contact {
-    display: none;
-}
 
 
   /*aqeda hover ebiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
@@ -357,7 +354,7 @@ body {
 }
 
   .right{
-  position: relative;
+  display: none ;
 
 }
 
@@ -430,6 +427,10 @@ body {
    text-align: center;
 }
 
+  .right{
+  display: none ;
+
+}
 
 /* Base styles */
 .menu-container {
